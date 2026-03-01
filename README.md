@@ -1,16 +1,32 @@
-# meat_track
+Meat Track 
+A Real-time Inventory & Sales Management System built with Flutter and Google Sheets.
 
-A new Flutter project.
+Meat Track is a mobile-first solution designed for meat distribution networks. It simplifies the process of tracking stock loaded into delivery vehicles and records real-time sales at retail outlets, synchronizing all data instantly to a centralized Google Sheets dashboard.
 
-## Getting Started
+Key Features
+Real-time Cloud Sync: Seamless data synchronization using Google Apps Script as a serverless backend.
 
-This project is a starting point for a Flutter application.
+Inventory Tracking: Automated "Remaining Stock" calculation to prevent inventory leakage.
 
-A few resources to get you started if this is your first Flutter project:
+Sales Management: Easy-to-use billing interface for delivery drivers.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Product & Shop Configuration: Dynamic management of product lists and retail partners.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Modern UI: Clean, intuitive interface built with Flutter's Material 3 design.
+
+Tech Stack
+Frontend: Flutter (Dart)
+
+State Management: Provider
+
+Backend: Google Apps Script (REST API)
+
+Database: Google Sheets
+
+HTTP Client: http package
+
+System Architecture
+The application follows a serverless architecture to keep costs low and efficiency high:
+
+
+
